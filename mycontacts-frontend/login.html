@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:5000/api/users/login" method="post" id="login-form">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password"  id="password">
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <p>Dont Have account <a href="./register.html">Register</a> here</p>
+    <a href="./index.html">Home</a>
+</body>
+<script src="./javascript/login.js"></script>
+</html>
